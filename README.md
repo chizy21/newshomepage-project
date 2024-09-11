@@ -6,15 +6,17 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ## Table of contents
 
-- [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-- [Author](#author)
+- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
+  - [Table of contents](#table-of-contents)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Author](#author)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/chizy21/newshomepage-project]
+- Live Site URL: [https://dazzling-treacle-fafe8c.netlify.app/]
 
 ## My process
 

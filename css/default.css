@@ -5,6 +5,9 @@
   --color-greyish-blue: hsl(233, 8%, 79%);
   --color-dark-greyish-blue: hsl(236, 13%, 42%);
   --color-very-dark-blue: hsl(240, 100%, 5%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --link-color: #495fef;
 }
 
 section,
@@ -29,15 +32,15 @@ body {
 }
 
 a {
-  color: #495fef;
+  color: var(--link-color);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  background: #ffffff;
-  border: 1px solid #000000;
-  box-shadow: 0px 1px 2px #000000;
+  background: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-shadow: 0px 1px 2px var(--color-black);
   color: var(--color-orange);
 }
 
@@ -155,6 +158,7 @@ nav ul li {
 .btn {
   align-items: center;
   text-transform: uppercase;
+  border-radius: 25px;
 }
 
 .btn:not(:disabled):not(.disabled),
@@ -163,7 +167,7 @@ button:not(:disabled):not(.disabled) {
 }
 
 .btn-primary {
-  color: #fff;
+  color: var(--color-white);
   width: 175px;
   height: 75px;
   font-family: "Inter";
@@ -188,7 +192,7 @@ button:not(:disabled):not(.disabled) {
   /* Dark Space Blue */
   background: #00001a;
   padding: 20px;
-  color: #fff;
+  color: var(--color-white);
   font-family: "Inter";
 }
 
